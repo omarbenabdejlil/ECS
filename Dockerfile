@@ -11,3 +11,4 @@ pip install --user -r ./requirements.txt
 
 VOLUME [ "/ecs" ]
 ENTRYPOINT [ "python", "ecs.py" ]
+CMD ["--help"]
