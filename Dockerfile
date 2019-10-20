@@ -5,8 +5,7 @@ LABEL src "https://github.com/omarbenabdejlil/ECS"
 LABEL creator omarbenabdejlil
 RUN apk add --no-cache git && \
     git clone https://github.com/omarbenabdejlil/ECS.git
-RUN mkdir ESC
-WORKDIR ESC
+WORKDIR ECS
 RUN pip install --user --upgrade pip && \
 pip install --user -r ./requirements.txt
 
